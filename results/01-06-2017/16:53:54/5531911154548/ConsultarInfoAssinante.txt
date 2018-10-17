@@ -1,0 +1,81 @@
+REQUEST:
+
+{"MSISDN": "5531911154548", "token": "5522fda230561f4a37152fa0ddf73bd4", "MessageHeader": {"Timestamp": "2012-12-13T12:12:12", "TransactionId": "OA0841:SOA0815V1.0:201706011653544010763234869902703910641", "Credentials": {"AppId": "OA0841"}}}
+
+---------------------------------
+
+RESPONSE:
+
+{
+  "ResponseControl" : {
+    "code" : "00000",
+    "reason" : "Sucesso",
+    "detail" : null
+  },
+  "Servico" : {
+    "NumeroServicoMovel" : "5531911154548",
+    "IdServico" : "69",
+    "CodigoProduto" : "1",
+    "DataInstalacaoInicialServico" : "20170505",
+    "DataTerminoServico" : "20291231",
+    "DataRenovacaoOferta" : null,
+    "TempoBloqueioServico" : "0",
+    "IndicadorCreditoAutomatico" : false,
+    "DataPagto1oTipoUso" : null,
+    "DataPgtoTaxaManutencao" : null,
+    "ValorTaxaManutencao" : null,
+    "PacoteRecorrente" : null
+  },
+  "OfertaProduto" : {
+    "ValorTaxaOferta" : null
+  },
+  "OrdemRecarga" : {
+    "ListaBuckets" : {
+      "ItemBuckets" : [ {
+        "DataHoraRecarga" : "20170505",
+        "IDBolso" : "1",
+        "Validade" : "20170806",
+        "ValorConcedidoBolso" : 5600.00
+      }, {
+        "DataHoraRecarga" : "20170531",
+        "IDBolso" : "51",
+        "Validade" : "20170805",
+        "ValorConcedidoBolso" : 2512.00
+      }, {
+        "DataHoraRecarga" : "20170601",
+        "IDBolso" : "52",
+        "Validade" : "20170601",
+        "ValorConcedidoBolso" : 300.00
+      }, {
+        "DataHoraRecarga" : "20170601",
+        "IDBolso" : "53",
+        "Validade" : "20170601",
+        "ValorConcedidoBolso" : 150.00
+      }, {
+        "DataHoraRecarga" : "20170531",
+        "IDBolso" : "54",
+        "Validade" : "20170805",
+        "ValorConcedidoBolso" : 10282446.00
+      } ]
+    },
+    "IndicadorValorMinimo" : false
+  },
+  "Cliente" : {
+    "IndicadorTaxaPendente" : true
+  },
+  "ParametrosOperacao" : {
+    "PreBenefitID" : null,
+    "PreProgramID" : null,
+    "ActMonthRech" : null,
+    "UltimoMesRecarga" : null,
+    "UltimaDataRecarga" : null,
+    "ActMonthSMS" : null,
+    "LastMonthSMS" : null,
+    "FCORchgInfo" : null,
+    "FCORemainMinutes" : null,
+    "ListOfferFree" : null,
+    "PrehireBundles" : "||",
+    "DueFee" : null
+  }
+}
+

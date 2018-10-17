@@ -1,0 +1,21 @@
+REQUEST:
+
+{"Operacao": "1", "NumeroAssinante": "5531911154548", "Token": "354a4b2a4a471c3f41894c85d389135a", "Cliente": "APP"}
+
+---------------------------------
+
+RESPONSE:
+
+{
+  "NumeroAssinante" : "5531911154548",
+  "CodigoRetorno" : 0,
+  "Bolsos" : "1;20170505;20170806;1100.00|51;20170531;20170805;590.00|52;20170625;20170625;300.00|53;20170625;20170625;150.00|54;20170601;20170805;13762129.00|",
+  "TaxaConversao" : "51;60;54;10240|54;10240;51;60|",
+  "GradianteConversao" : "51;60|54;600|",
+  "ResponseControl" : {
+    "code" : "0",
+    "reason" : "Sucesso",
+    "detail" : "Sucesso"
+  }
+}
+

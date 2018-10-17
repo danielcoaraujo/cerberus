@@ -1,0 +1,21 @@
+REQUEST:
+
+{"Operacao": "2", "Token": "354a4b2a4a471c3f41894c85d389135a", "BolsoDestino": "54", "Amount": "1", "NumeroAssinante": "5531911151500", "TaxaConversao": "60:10240", "Cliente": "APP", "BolsoOrigem": "51"}
+
+---------------------------------
+
+RESPONSE:
+
+{
+  "NumeroAssinante" : "5531911151500",
+  "CodigoRetorno" : -7,
+  "Bolsos" : null,
+  "TaxaConversao" : null,
+  "GradianteConversao" : null,
+  "ResponseControl" : {
+    "code" : "-7",
+    "reason" : "Erro",
+    "detail" : "Erro"
+  }
+}
+

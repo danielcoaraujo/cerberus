@@ -1,0 +1,25 @@
+REQUEST:
+
+{"Credentials": {"Token": "354a4b2a4a471c3f41894c85d389135a", "AppId": "OA0841"}, "CatalogoProduto": {"TipoCliente": "00", "TipoRecarga": "01", "IdCanal": "600"}, "MessageHeader": {"BusinessKey": "0000", "Timestamp": "2012-12-13T12:12:12", "TransactionId": "OA0841:SOA0815V1.0:201706251519198299955222809273685621710"}}
+
+---------------------------------
+
+RESPONSE:
+
+{
+  "ResponseControl" : {
+    "Code" : "101",
+    "Reason" : "OSB Validate action failed validation",
+    "Detail" : "<details xmlns=\"http://www.bea.com/wli/sb/context\"><ValidationFailureDetail xmlns=\"http://www.bea.com/wli/sb/stages/transform/config\"><message>Expected element 'Credentials@http://TargetNamespace.com/ServiceName' before the end of the content in element MessageHeader@http://TargetNamespace.com/ServiceName</message><xmlLocation><t0:MessageHeader xmlns:t0=\"http://TargetNamespace.com/ServiceName\"><t0:TransactionId>OA0841:SOA0815V1.0:201706251519198299955222809273685621710</t0:TransactionId><t0:BusinessKey>0000</t0:BusinessKey><t0:Timestamp>2012-12-13T12:12:12</t0:Timestamp></t0:MessageHeader></xmlLocation><message>Expected element 'token@http://TargetNamespace.com/ServiceName' instead of 'CatalogoProduto@http://TargetNamespace.com/ServiceName' here in element ConsultarPortifolioRequest@http://TargetNamespace.com/ServiceName</message><xmlLocation><t0:CatalogoProduto xmlns:t0=\"http://TargetNamespace.com/ServiceName\"><t0:IdCanal>600</t0:IdCanal><t0:TipoCliente>00</t0:TipoCliente><t0:TipoRecarga>01</t0:TipoRecarga></t0:CatalogoProduto></xmlLocation><message>Expected element 'token@http://TargetNamespace.com/ServiceName' before the end of the content in element ConsultarPortifolioRequest@http://TargetNamespace.com/ServiceName</message><xmlLocation><t0:ConsultarPortifolioRequest xmlns:t0=\"http://TargetNamespace.com/ServiceName\"><t0:MessageHeader><t0:TransactionId>OA0841:SOA0815V1.0:201706251519198299955222809273685621710</t0:TransactionId><t0:BusinessKey>0000</t0:BusinessKey><t0:Timestamp>2012-12-13T12:12:12</t0:Timestamp></t0:MessageHeader><t0:CatalogoProduto><t0:IdCanal>600</t0:IdCanal><t0:TipoCliente>00</t0:TipoCliente><t0:TipoRecarga>01</t0:TipoRecarga></t0:CatalogoProduto></t0:ConsultarPortifolioRequest></xmlLocation></ValidationFailureDetail></details>"
+  },
+  "CatalogoProduto" : [ {
+    "ValorInicial" : null,
+    "ValorFinal" : null,
+    "IdProduto" : null,
+    "DescricaoProduto" : null,
+    "NomeProduto" : null,
+    "DDD" : null,
+    "Comercializavel" : null
+  } ]
+}
+

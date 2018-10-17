@@ -1,0 +1,24 @@
+REQUEST:
+
+{"ContaDetalhadaPreRequest": {"dataFim": "12/01/2017", "dataInicio": "01/05/2017", "tpRequisicao": "-2", "tpChamada": "-2", "Ator": {"sistema": "APP"}, "listaSecoes": "-2", "numTT": "1234", "msisdn": "5531911151500"}, "token": "354a4b2a4a471c3f41894c85d389135a"}
+
+---------------------------------
+
+RESPONSE:
+
+{
+  "ContaDetalhadaPreResponse" : {
+    "Cliente" : {
+      "msisdn" : "5531911151500",
+      "numTT" : "1234"
+    },
+    "secoes" : null,
+    "indPossuiRegistros" : "false",
+    "ResponseControl" : {
+      "code" : "0",
+      "reason" : "BLL[Sucesso] FORT[]",
+      "detail" : "BLL[] FORT[]"
+    }
+  }
+}
+

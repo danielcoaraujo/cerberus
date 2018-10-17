@@ -1,0 +1,66 @@
+REQUEST:
+
+{"ContaDetalhadaPreRequest": {"dataFim": "26/05/2017", "dataInicio": "01/04/2017", "tpRequisicao": "-2", "tpChamada": "-2", "Ator": {"sistema": "APP"}, "listaSecoes": "-2", "numTT": "1234", "msisdn": "5531911154548"}, "token": "354a4b2a4a471c3f41894c85d389135a"}
+
+---------------------------------
+
+RESPONSE:
+
+{
+  "ConsultarHistoricoAssinanteResponse" : {
+    "Cliente" : {
+      "msisdn" : null,
+      "numTT" : null
+    },
+    "secoes" : {
+      "secao" : [ {
+        "idSecao" : null,
+        "ordemSecao" : null,
+        "secaoPai" : null,
+        "nomeSecao" : null,
+        "detalheSecao" : {
+          "itemdetalhe" : [ {
+            "fgPossuiBolso" : null,
+            "fgPossuiTotal" : null,
+            "cdMsisdnChamado" : null,
+            "ufOrigemChamado" : null,
+            "hora" : null,
+            "dataHora" : null,
+            "tpTarifa" : null,
+            "valor" : null,
+            "tipoUnidade" : null,
+            "duracaoChamada" : null,
+            "descricao" : null,
+            "tpRequisicao" : null,
+            "tpTarifacao" : null,
+            "tpChamada" : null,
+            "descRoam" : null,
+            "descChamadaCobrar" : null,
+            "ufZonaOrigem" : null,
+            "descBolso" : null,
+            "icms" : null,
+            "cdTipoPproduto" : null,
+            "cdOperLngDistancia" : null,
+            "codBolso" : null,
+            "canal" : null,
+            "subcanal" : null,
+            "Direitos" : [ {
+              "tipo" : null,
+              "nome" : null,
+              "valor" : null,
+              "unidade" : null,
+              "bolso" : null
+            } ]
+          } ]
+        }
+      } ]
+    },
+    "indPossuiRegistros" : null,
+    "ResponseControl" : {
+      "code" : "101",
+      "reason" : "OSB Validate action failed validation",
+      "detail" : "<details xmlns=\"http://www.bea.com/wli/sb/context\"><ValidationFailureDetail xmlns=\"http://www.bea.com/wli/sb/stages/transform/config\"><message>Expected element 'ConsultarHistoricoAssinanteRequest@http://TargetNamespace.com/ServiceName' before the end of the content in element ConsultarHistoricoAssinanteRequest@http://TargetNamespace.com/ServiceName</message><xmlLocation><t0:ConsultarHistoricoAssinanteRequest xmlns:t0=\"http://TargetNamespace.com/ServiceName\"><t0:token>354a4b2a4a471c3f41894c85d389135a</t0:token></t0:ConsultarHistoricoAssinanteRequest></xmlLocation></ValidationFailureDetail></details>"
+    }
+  }
+}
+

@@ -1,0 +1,19 @@
+REQUEST:
+
+{"Canal": {"IdCanal": "APP"}, "Servico": {"NumeroServico": "5531911154548"}, "token": "354a4b2a4a471c3f41894c85d389135a", "MessageHeader": {"Timestamp": "2017-05-30T11:34:11", "TransactionId": "OA0841:SOA0131V1.0:AAAAMMDDHHMMSSZZZ:000:000000000000000000000066", "Credentials": {"AppId": "OA0841"}}, "ParametroOperacao": {"Operation": "1"}, "ProdutoBundle": {"idBundle": "D10"}}
+
+---------------------------------
+
+RESPONSE:
+
+{
+  "ResponseControl" : {
+    "code" : "00079",
+    "reason" : "Saldo insuficiente ou cr?dito expirado",
+    "detail" : null
+  },
+  "Servico" : {
+    "NumeroServico" : "5531911154548"
+  }
+}
+

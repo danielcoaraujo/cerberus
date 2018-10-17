@@ -1,0 +1,71 @@
+REQUEST:
+
+{"MSISDN": "5531911151500", "token": "354a4b2a4a471c3f41894c85d389135a", "MessageHeader": {"Timestamp": "2012-12-13T12:12:12", "TransactionId": "OA0841:SOA0815V1.0:201706251519198299955222809273685621710", "Credentials": {"AppId": "OA0841"}}}
+
+---------------------------------
+
+RESPONSE:
+
+{
+  "ResponseControl" : {
+    "code" : "00000",
+    "reason" : "Sucesso",
+    "detail" : null
+  },
+  "Servico" : {
+    "NumeroServicoMovel" : "5531911151500",
+    "IdServico" : null,
+    "CodigoProduto" : null,
+    "DataInstalacaoInicialServico" : null,
+    "DataTerminoServico" : null,
+    "DataRenovacaoOferta" : null,
+    "TempoBloqueioServico" : "0",
+    "IndicadorCreditoAutomatico" : false,
+    "DataPagto1oTipoUso" : null,
+    "DataPgtoTaxaManutencao" : null,
+    "ValorTaxaManutencao" : null,
+    "PacoteRecorrente" : null
+  },
+  "OfertaProduto" : {
+    "ValorTaxaOferta" : null
+  },
+  "OrdemRecarga" : {
+    "ListaBuckets" : {
+      "ItemBuckets" : [ {
+        "DataHoraRecarga" : "20170505",
+        "IDBolso" : "1",
+        "Validade" : "20170805",
+        "ValorConcedidoBolso" : 1004.00
+      }, {
+        "DataHoraRecarga" : "20170525",
+        "IDBolso" : "51",
+        "Validade" : "20170626",
+        "ValorConcedidoBolso" : 7200.00
+      }, {
+        "DataHoraRecarga" : "20170525",
+        "IDBolso" : "54",
+        "Validade" : "20170630",
+        "ValorConcedidoBolso" : 400000.00
+      } ]
+    },
+    "IndicadorValorMinimo" : false
+  },
+  "Cliente" : {
+    "IndicadorTaxaPendente" : false
+  },
+  "ParametrosOperacao" : {
+    "PreBenefitID" : null,
+    "PreProgramID" : null,
+    "ActMonthRech" : "1",
+    "UltimoMesRecarga" : "3",
+    "UltimaDataRecarga" : "20170607",
+    "ActMonthSMS" : null,
+    "LastMonthSMS" : null,
+    "FCORchgInfo" : null,
+    "FCORemainMinutes" : null,
+    "ListOfferFree" : null,
+    "PrehireBundles" : "||",
+    "DueFee" : null
+  }
+}
+

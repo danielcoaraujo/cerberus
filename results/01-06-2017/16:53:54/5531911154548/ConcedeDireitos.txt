@@ -1,0 +1,17 @@
+REQUEST:
+
+{"token": "5522fda230561f4a37152fa0ddf73bd4", "EventoRecarga": {"idProdutoRecarga": "137263", "idEventoRecarga": "00", "valorFace": "100000", "idCliente": "5531911154548", "subCanal": "601", "dataRecarga": "20080929010000", "validade": "31", "tipoProdutoRecarga": "00", "idBolso": "54"}, "MessageHeader": {"Timestamp": "29052017093859", "TransactionId": "OA0841:SOA0815V1.0:201706011653544010763234869902703910641", "AppId": "OA0841"}}
+
+---------------------------------
+
+RESPONSE:
+
+{
+  "EventoRecarga" : null,
+  "ResponseControl" : {
+    "code" : "9998",
+    "reason" : "The field messageID must not have more than 50 characters",
+    "detail" : null
+  }
+}
+

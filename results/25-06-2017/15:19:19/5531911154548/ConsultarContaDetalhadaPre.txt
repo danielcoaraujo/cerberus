@@ -1,0 +1,24 @@
+REQUEST:
+
+{"ContaDetalhadaPreRequest": {"dataFim": "12/01/2017", "dataInicio": "01/05/2017", "tpRequisicao": "-2", "tpChamada": "-2", "Ator": {"sistema": "APP"}, "listaSecoes": "-2", "numTT": "1234", "msisdn": "5531911154548"}, "token": "354a4b2a4a471c3f41894c85d389135a"}
+
+---------------------------------
+
+RESPONSE:
+
+{
+  "ContaDetalhadaPreResponse" : {
+    "Cliente" : {
+      "msisdn" : null,
+      "numTT" : null
+    },
+    "secoes" : null,
+    "indPossuiRegistros" : null,
+    "ResponseControl" : {
+      "code" : "1001",
+      "reason" : "Erro Inesperado",
+      "detail" : "BEA-382500OSB Service Callout action received SOAP Fault responsefaul:invokeExecutionFaultError converting the response message from Service 'ProxyService DemonstrativoConta/ProxyServices/ConsultarContaDetalhadaPreBLLProxySoap': The SOAP envelope contains one or more body elements that cannot be mapped to WSDL parts ({http://osb.telemar/xsd/ConsultarProdutosClienteCDI}ConsultarProdutosClienteCDIResponse).PipelinePairContaDetalhadaPrePipelinePairContaDetalhadaPre_requestInvocarSplitJoinrequest-pipeline"
+    }
+  }
+}
+
